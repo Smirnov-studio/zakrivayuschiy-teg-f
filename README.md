@@ -1,1 +1,1 @@
-https://smirnov-studio.github.io/zakrivayuschiy-teg-f/
+https://github.com/smirnov-studio/zakrivayuschiy-teg-f
