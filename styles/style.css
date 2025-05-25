@@ -264,7 +264,6 @@ li {
   height: clamp(55px, calc(84px - 29 * (100vw - 375px) / 1065), 84px);
   width: clamp(306px, calc(306px + 29 * (100vw - 375px) / 1065), 335px);
   max-width: 100%;
-  height: auto;
   font-family: var(--fontpress);
   font-size: 14px;
   line-height: 90%;
