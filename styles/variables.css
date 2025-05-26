@@ -1,7 +1,9 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --fontpress: "PressStart2P-Regular", Helvetica, Arial, sans-serif;
-  --fontinter: "Inter-Variables", Helvetica, Arial, sans-serif;
+  --main-font: "PressStart2P", Helvetica, Arial, fantasy;
+  --accent-font: "Inter-Variables", Helvetica, Arial, sans-serif;
+  --normal: 400;
+  --bold: 700;
   --size: clamp(3.0625rem, 1.8943rem + 4.9844vw, 4.0625rem);
   --bg-color: #ffffff;
   --outline-color: #ffffff;
