@@ -288,7 +288,7 @@ li {
 .floppy__icon {
   width: 25px;
   height: 25px;
-  margin: 0;
+  margin-right: 8px;
 }
 
 .floppy__icon-dialog {
@@ -302,7 +302,6 @@ li {
   max-width: 100%;
   margin: auto;
   padding: 30px;
-  overflow-x: hidden;
 }
 
 dialog::backdrop {
@@ -313,6 +312,8 @@ dialog::backdrop {
 .dialog__heading {
   display: grid;
   grid-template-columns: auto auto;
+  align-items: center;
+  justify-items: center;
   gap: 20px;
   margin-bottom: 30px;
 }
@@ -357,5 +358,9 @@ dialog::backdrop {
     width: 257px;
     height: 38px;
     margin: auto;
+  }
+
+  .dialog__heading {
+    margin-left: 8px;
   }
 }
