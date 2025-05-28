@@ -282,7 +282,6 @@ li {
 .button__dialog {
   text-transform: uppercase;
   position: relative;
-  width: 293px;
   height: 38px;
   margin: auto;
   width: clamp(257px, calc(257px + 36 * (100vw - 375px) / 1065), 293px);
